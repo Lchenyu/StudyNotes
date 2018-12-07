@@ -1,4 +1,4 @@
-*Math:
+* Math:
 *** reverse a digit
 #+BEGIN_SRC
 // pop operation
@@ -11,7 +11,7 @@ rev = temp;
 #+END_SRC
 
 
-*Code: (JAVA)
+* Code: (JAVA)
 **determine if digit cause integer overflows;
 #+BEGIN_SRC
 if (ans > Integer.MAX_VALUE/10 || (ans == Integer.MAX_VALUE/ 10 && pop > 7)) return 0;
