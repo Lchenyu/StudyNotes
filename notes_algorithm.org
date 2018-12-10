@@ -15,7 +15,7 @@ rev = temp;
 *** - determine if digit cause integer overflows
 #+BEGIN_SRC
 if (ans > Integer.MAX_VALUE/10 || (ans == Integer.MAX_VALUE/ 10 && pop > 7)) return 0;
-if (ans < Integer.MIX_VALUE/10 || (ans == Integer.MIN_VALUE/ 10 && pop < -8)) return 0;
+if (ans < Integer.MIN_VALUE/10 || (ans == Integer.MIN_VALUE/ 10 && pop < -8)) return 0;
 #+END_SRC
 
 *** methods for =String=
