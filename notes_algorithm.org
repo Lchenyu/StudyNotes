@@ -17,3 +17,10 @@ rev = temp;
 if (ans > Integer.MAX_VALUE/10 || (ans == Integer.MAX_VALUE/ 10 && pop > 7)) return 0;
 if (ans < Integer.MIX_VALUE/10 || (ans == Integer.MIN_VALUE/ 10 && pop < -8)) return 0;
 #+END_SRC
+
+*** methods for =String=
+#+BEGIN_SRC
+string.indexOf("Str") // match "Str" and return the start index; if not match retrun -1
+string.substring(int, int)
+string.isEmpty()
+#+END_SRC
