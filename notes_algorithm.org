@@ -21,6 +21,6 @@ if (ans < Integer.MIN_VALUE/10 || (ans == Integer.MIN_VALUE/ 10 && pop < -8)) re
 *** methods for =String=
 #+BEGIN_SRC
 string.indexOf("Str") // match "Str" and return the start index; if not match retrun -1
-string.substring(int, int)
+string.substring(int a, int b) //get sub string from index a to b;
 string.isEmpty()
 #+END_SRC
