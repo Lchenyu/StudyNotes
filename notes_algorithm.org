@@ -1,5 +1,5 @@
 * Math:
-*** - reverse a digit
+*** Reverse a digit
 #+BEGIN_SRC
 // pop operation
 pop = x % 10;
@@ -9,16 +9,21 @@ x /= 10;
 temp = rev * 10 + pop;
 rev = temp;
 #+END_SRC
-
+*** Sqrt(Square Root)
+root =A= can be considered as area =A= of a square;
+To get the =Sqrt=, we need to make a rectangle "more square", then Sqrt(A) is between the length and width of the rectangle.
+Assume the length of the rectangle is =L=, then the width of the rectangle is =A/L=;
+=L(new) = (L + A/L)/2= is the average of the length and width;
+when the =NEW L= nearly equals to the =OLD L=, the L is answer, because the rectangle is more square now. 
 
 * Code: (JAVA)
-*** - determine if digit cause integer overflows
+*** Determine if digit cause integer overflows
 #+BEGIN_SRC
 if (ans > Integer.MAX_VALUE/10 || (ans == Integer.MAX_VALUE/ 10 && pop > 7)) return 0;
 if (ans < Integer.MIN_VALUE/10 || (ans == Integer.MIN_VALUE/ 10 && pop < -8)) return 0;
 #+END_SRC
 
-*** methods for =String=
+*** Methods for =String=
 #+BEGIN_SRC
 string.indexOf("Str") // match "Str" and return the start index; if not match retrun -1
 string.substring(int a, int b) //get sub string from index a to b;
